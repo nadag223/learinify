@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Learinify">
         <activity
+            android:name=".GoogleloginActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
